@@ -1,0 +1,151 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #555;  
+    background-color: #f2f2f2;  
+    border-radius: 8px;
+  }
+  
+  h1 {
+    flex: 1;  
+    margin: 0;  
+  }
+  
+  .logo {
+    width: 100px;  
+    height: 100px;  
+    margin-left: 20px;  
+  }
+  
+  .question-box {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .question-text {
+    font-size: 1.2em;  
+    font-weight: bold;  
+    color: #333;  
+    margin-bottom: 10px;  
+  }
+  
+   
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .animate
+  {
+      transition: all 0.1s;
+      -webkit-transition: all 0.1s;
+  }
+  
+  .action-button
+  {
+      position: relative;
+      padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+      border-radius: 10px;
+      font-family: 'Pacifico', cursive;
+      font-size: 25px;
+      color: #FFF;
+      text-decoration: none;	
+  }
+  
+  .blue
+  {
+      background-color: #3498DB;
+      border-bottom: 5px solid #2980B9;
+      text-shadow: 0px -2px #2980B9;
+  }
+  
+  .red
+  {
+      background-color: #E74C3C;
+      border-bottom: 5px solid #BD3E31;
+      text-shadow: 0px -2px #BD3E31;
+  }
+  
+  .green
+  {
+      background-color: #82BF56;
+      border-bottom: 5px solid #669644;
+      text-shadow: 0px -2px #669644;
+  }
+  
+  .yellow
+  {
+      background-color: #F2CF66;
+      border-bottom: 5px solid #D1B358;
+      text-shadow: 0px -2px #D1B358;
+  }
+  
+  .action-button:active
+  {
+      transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+      border-bottom: 1px solid;
+  }
+  
+  
+   
+  
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  
+  

@@ -1,0 +1,33 @@
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+ 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+ 
